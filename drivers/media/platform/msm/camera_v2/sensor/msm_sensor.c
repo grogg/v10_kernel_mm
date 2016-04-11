@@ -17,7 +17,7 @@
 #include "msm_camera_i2c_mux.h"
 #include <linux/regulator/rpm-smd-regulator.h>
 #include <linux/regulator/consumer.h>
-#include "./mh1/msm_mh1.h" /*                                                                */
+#include "../mh1/msm_mh1.h" /*                                                                */
 #include <soc/qcom/lge/board_lge.h>	//to use lge_get_board_revno()
 
 #undef CDBG
