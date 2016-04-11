@@ -704,7 +704,7 @@ static int qpnp_rtc_probe(struct spmi_device *spmi)
 #endif
 
 #ifdef CONFIG_LGE_RTC_FAKE_SECS
-	rtc_fake_secs = mktime(2015, 1, 1, 0, 0, 0);
+	rtc_fake_secs = mktime(2016, 3, -1, 4, 5, 0);
 #endif
 
 	rtc_dd = devm_kzalloc(&spmi->dev, sizeof(*rtc_dd), GFP_KERNEL);
